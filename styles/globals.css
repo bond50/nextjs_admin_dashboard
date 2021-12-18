@@ -1,16 +1,23 @@
-html,
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
 }
 
 a {
-  color: inherit;
+  color: #4154f1;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  color: #717ff5;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
 }
