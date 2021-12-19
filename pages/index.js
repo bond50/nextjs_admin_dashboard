@@ -1,11 +1,12 @@
-import Header from "../components/navigation/header/header";
 
+import Layout from "../components/layout/layout";
+import Home from "../components/home";
 
 const Index = () => {
     return (
-        <>
-         <Header/>
-        </>
+       <Layout pageTitle='Dashboard'>
+          <Home/>
+       </Layout>
     );
 };
 
