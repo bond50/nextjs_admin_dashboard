@@ -11,7 +11,7 @@ const Layout = ({children, pageTitle}) => {
     let attachedClasses = [classes.Main];
 
     if (closed) {
-        attachedClasses = [classes.Close];
+        attachedClasses = [classes.Main,classes.Close];
     }
 
     return (

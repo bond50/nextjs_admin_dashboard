@@ -1,12 +1,11 @@
-
 import Layout from "../components/layout/layout";
-import Home from "../components/home";
+import Home from "../components/home/home-page";
 
 const Index = () => {
     return (
-       <Layout pageTitle='Dashboard'>
-          <Home/>
-       </Layout>
+        <Layout>
+            <Home/>
+        </Layout>
     );
 };
 

@@ -42,7 +42,6 @@
 }
 
 
-
 @media (max-width: 1199px) {
     .CloseMobile {
         left: -300px;
@@ -60,7 +59,6 @@
     padding: 0;
     margin: 0;
     list-style: none;
-
 }
 
 .NavHeading {
@@ -77,9 +75,6 @@
     margin-bottom: 5px;
 }
 
-.SidebarListItem.active, .SidebarListItem:hover {
-    background-color: rgb(240, 240, 255);
-}
 
 .SidebarListItem i {
     margin-right: 5px;
@@ -91,43 +86,24 @@
     align-items: center;
     font-size: 15px;
     font-weight: 600;
-    color: #4154f1;
-    transition: 0.3s;
-    background: #f6f9ff;
+    color: #012970;
+    background: #fff;
     padding: 10px 15px;
     border-radius: 4px;
 }
 
 .NavLink i {
-    font-size: 16px;
+    font-size: 16px !important;
     margin-right: 10px;
+    color: #899bbd
+}
+
+
+.NavLink:hover, .NavLink.active {
     color: #4154f1;
+    background: #ededf1;
 }
 
 
-.NavLink.collapsed {
-    color: #012970;
-    background: #fff;
-}
 
-.NavLink.collapsed i {
-    color: #899bbd;
-}
 
-.NavLink:hover {
-    color: #4154f1;
-    background: #f6f9ff;
-}
-
-.NavLink:hover i {
-    color: #4154f1;
-}
-
-.NavLink .bi-chevron-down {
-    margin-right: 0;
-    transition: transform 0.2s ease-in-out;
-}
-
-.NavLink:not(.collapsed) .bi-chevron-down {
-    transform: rotate(180deg);
-}
